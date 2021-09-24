@@ -8,9 +8,9 @@
 // --------------------1) What will this log?
 
 var cohort = "Delta 2021"
-// console.log(cohort.split(""))
+console.log(cohort.split(""))
 
-// a) Your answer:
+// Your answer: " D E L T A   2 0 2 1 node"
 // b) Verify and explain:
 
 
@@ -19,41 +19,41 @@ var cohort = "Delta 2021"
 const greeter = (name) => {
   `Hello, ${name}!`
 }
-// console.log(greeter("LEARN Student"))
+console.log(greeter("LEARN Student"))
 
-// a) Your answer:
+// a) Your answer:"Hello, LEARN Student"
 // b) Verify and explain:
 
 
 // --------------------3) What will this log?
 
 var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
-// console.log(multBy2)
+ console.log(multBy2)
 
-// a) Your answer:
+ a) Your answer:[8, 10, 12, 14, 16]
 // b) Verify and explain:
 
 
 // --------------------4) What will this log?
 
-var oddsOnly = [11, 12, 13, 14, 15].filter(value => value % 2 === 0)
+//var oddsOnly = [11, 12, 13, 14, 15].filter(value => value % 2 === 0)
 // console.log(oddsOnly)
 
-// a) Your answer:
+ a) Your answer: 11, 13, 14, 15
 // b) Verify and explain:
 
 
 // --------------------5) What will this log?
 
-class Learn {
-  constructor(name){
-    this.student = name,
-    this.cohort = "Delta",
-    this.year = 2021
-  }
-}
-var learnStudent = new Learn("George")
-// console.log(learnStudent)
+ class Learn {
+   constructor(name){
+     this.student = name,
+     this.cohort = "Delta",
+     this.year = 2021
+   }
+ }
+ var learnStudent = new Learn("George")
+ console.log(learnStudent)
 
 // a) Your answer:
 // b) Verify and explain:
